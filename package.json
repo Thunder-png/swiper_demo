@@ -1,0 +1,13 @@
+{
+  "name": "swiper_demo",
+  "description": "SASS swiper",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build-sass": "node-sass --include-path scss main.scss style.css"
+  },
+  "dependencies": {
+    "node-sass": "^8.0.0",
+    "swiper": "^9.0.2"
+  }
+}
